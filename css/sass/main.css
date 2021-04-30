@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;1,100;1,200&display=swap");
+html {
+  /*
+  animaciones de resize 
+  */
+  font-size: 16px;
+  font-family: "Barlow", sans-serif;
+}
+
+h1 {
+  font-size: 2.986rem;
+  font-weight: 800;
+}
+
+.display-1 {
+  color: #ebe8db !important;
+  font-weight: 800;
+  line-height: 0.99 !important;
+}
+
+h2 {
+  font-size: 2.488rem;
+  font-weight: 700;
+  color: #ebe8db;
+}
+
+#h2-profesion {
+  color: #106466;
+}
+
+h3 {
+  font-size: 2.074rem;
+  font-weight: 700;
+}
+
+.display-3 {
+  color: #661b4f;
+  font-weight: 600;
+}
+
+.display-3:hover {
+  color: #0bb0b3;
+  transition: 0.2s ease-in-out;
+}
+
+h4 {
+  font-size: 1.728rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.44rem;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.borde {
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+.display-6 {
+  color: #ebe8db !important;
+  font-weight: 500;
+}
+
+.navbar {
+  background-color: #ebe8db;
+  border-bottom: 3px solid black;
+  min-height: 96px;
+}
+
+.containerpadding {
+  height: 266px;
+  width: 100%;
+}
+
+.containerpadding-proyecto {
+  height: 150px;
+  width: 100%;
+}
+
+.container-button {
+  background-color: #661b4f;
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+.card-body {
+  background-color: #b39a14;
+  height: 100%;
+}
+
+.card-email-img {
+  width: 100%;
+  min-width: 353px;
+}
+
+.btn-contact {
+  width: 200px;
+  height: 90px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.btn-contact:hover {
+  background-color: #665706;
+  transition: 0.3s ease;
+}
+
+.card-paragraph {
+  position: absolute;
+  width: 600px;
+  height: 700px;
+  left: 666px;
+  top: 193px;
+  background-color: linear-gradient(180deg, #ebe8db -65.5%, #ffffff 24.36%);
+  border-radius: 16px;
+}
+
+.card-info {
+  border-radius: 10px;
+  margin-top: 1rem;
+  max-width: 80%;
+  min-width: 400px;
+  background-color: #ebe8db;
+  border-radius: 6px;
+  border: 3px solid black;
+}
+
+#page5 {
+  background-color: #ebe8db;
+  padding-right: 2rem;
+}
+
+.row {
+  margin-left: 0.5rem;
+}
+
+.main {
+  padding-left: 3.1%;
+}
+.main .section {
+  margin-top: 1rem;
+}
+
+#pagination {
+  position: fixed;
+  top: 45%;
+  left: 1%;
+  list-style: none;
+  border-radius: 10px;
+  background-color: #661b4f;
+  border: 1px solid #fff;
+}
+#pagination li {
+  position: relative;
+  margin: 32px 8px;
+  background: #fff;
+  border-radius: 100%;
+  width: 8px;
+  height: 8px;
+  transition: all 0.2s ease;
+}
+#pagination li:hover {
+  transform: scale(1.5);
+}
+#pagination a {
+  position: absolute;
+  text-decoration: none;
+  left: 0;
+  top: 0;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+#card-name {
+  color: #b39a14;
+  font-size: 56px !important;
+  font-weight: 700;
+}
+
+.paragraph {
+  color: #04191a;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 2rem;
+}
+
+.wrapper .item {
+  min-width: 250px;
+  box-sizing: border-box;
+  border: 2.1px solid black;
+  height: 380px;
+  line-height: 110px;
+  background-color: #ebe8db;
+  margin-right: 28px;
+}
+
+.skill {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.skill-card {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+  margin-right: 1rem;
+  padding-right: 1rem;
+}
+.skill-card .icon-skill {
+  max-width: 36px;
+}
+
+#ejzf {
+  fill: #661b4f !important;
+}
+
+.card-email .row {
+  box-sizing: border-box;
+  border: 2.1px solid black;
+}
+
+body {
+  background-color: #0bb0b3 !important;
+  background-image: repeating-linear-gradient(0deg, #106466, #106466 2px, #208184, 2px, #188186);
+  background-size: 80px 52px;
+  background-position: -7.8px -7.8px, -7.8px -7.8px, -3.9px -3.9px, -3.9px -3.9px;
+  background-attachment: fixed;
+  background-color: #0bb0b3;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-style-list, .navbar-top-style-list {
+  list-style: none;
+  background-color: #661b4f;
+  padding-inline-start: 0 !important;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0rem;
+  margin-top: 0.5rem;
+}
+.navbar-style-list li, .navbar-top-style-list li {
+  font-weight: 700;
+  font-size: 2rem;
+  font-variant-caps: all-petite-caps;
+  margin-right: 1.2rem;
+  margin-left: 1.2rem;
+  text-align: center;
+  line-height: 2;
+}
+.navbar-style-list li:hover, .navbar-top-style-list li:hover {
+  background-color: #b39a14;
+}
+.navbar-style-list li a, .navbar-top-style-list li a {
+  color: #ebe8db;
+}
+.navbar-style-list li a:hover, .navbar-top-style-list li a:hover {
+  color: #665706;
+  transition: ease-in 0.1s;
+}
+
+.footer-nav {
+  background-color: #fefefe;
+  color: #b39a14;
+  height: 100px;
+  margin-top: 5rem;
+  padding-top: 1rem;
+}
+.footer-nav .col {
+  font-size: 20spx;
+  font-weight: 700;
+}
+.footer-nav .col:hover {
+  color: #ebe8db;
+  transition: 0.4s ease-out;
+}
+
+#footer-ejzf {
+  fill: #b39a14 !important;
+}
+
+.navbar-top-style-list {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .container-button {
+    display: none;
+  }
+
+  #navtop {
+    display: inherit;
+  }
+}
+#pro001 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#pro002 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#pro003 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#pro004 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.proyectpage {
+  background-color: #661b4f;
+  border-top: 10px solid #b39a14;
+  border-bottom: 10px solid #b39a14;
+  padding-top: 1rem;
+}
+
+.proyect-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.rollback {
+  position: relative;
+  top: 22%;
+  left: 2%;
+  width: 75px;
+  height: 75px;
+  padding: 5px;
+}
+
+.rollback-image {
+  width: 100%;
+}
+
+.proyect-text {
+  margin-top: 1rem;
+  color: #ebe8db;
+}
+.proyect-text span {
+  color: #ebe8db;
+}
+.proyect-text p {
+  color: #ebe8db;
+}
+
+.progress-bar {
+  background-color: #0bb0b3;
+}

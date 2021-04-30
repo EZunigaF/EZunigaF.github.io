@@ -1,0 +1,529 @@
+
+@import "sass.scss";
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+
+html {
+
+
+    // Pedir ayuda para hacer nesting de SASS 
+    /*
+    animaciones de resize 
+    */
+    // Jueves 
+
+
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+}
+
+
+h1{
+    font-size: 2.986rem;
+    font-weight: 800;
+}
+
+.display-1{
+  color: $color_body_p_claro !important;
+  font-weight: 800;
+  line-height: .99 !important;
+}
+
+h2{
+    font-size: 2.488rem;
+    font-weight: 700;
+    color: $color_body_p_claro;
+}
+
+#h2-profesion{
+  color: $color_guias ;
+}
+
+h3{
+    font-size: 2.074rem;
+    font-weight: 700;
+}
+
+.display-3{
+  color: $color_botons;
+  font-weight: 600;  
+}
+
+.display-3:hover{
+    color: #0bb0b3;
+    transition: 0.2s ease-in-out;
+}
+
+h4{
+    font-size: 1.728rem;
+    font-weight: 700;
+}
+
+h5{
+    font-size: 1.44rem;
+    font-weight: 600;
+}
+    
+h6{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.borde{
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+.display-6{
+  color: $color_body_p_claro !important;
+  font-weight: 500;
+}
+
+.navbar {
+    background-color: $color_body_p_claro;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    min-height: 96px;
+    
+}
+
+.containerpadding {
+    height: 266px;
+    width: 100%;
+}
+
+  
+.containerpadding-proyecto {
+  height: 150px;
+  width: 100%; }
+
+.container-button {
+    background-color: $color_botons;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    
+}
+
+.card-body{
+  background-color: $color_acento ;
+  height: 100%;
+  // min-width: 400px;
+}
+
+
+
+.card-email-img{
+  width: 100%;
+  min-width: 353px;
+}
+
+.btn-contact{
+  width: 200px;
+  height: 90px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+
+  &:hover{
+    background-color: $color_acento_dark;
+    transition: 0.3s ease;
+  }
+}
+
+
+.card-paragraph {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    left: 666px;
+    top: 193px;
+
+    background-color: linear-gradient(180deg, #ebe8db -65.5%, #ffffff 24.36%);
+    border-radius: 16px;
+}
+
+.card-info{
+    border-radius: 10px;
+    margin-top: 1rem;
+    max-width: 80%;
+    min-width: 400px;
+    // height: 550px;
+    background-color: $color_body_p_claro;
+    border-radius: 6px;
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+
+#page5{
+  // height: 140px;
+  background-color: $color_body_p_claro ;
+  padding-right: 2rem;
+}
+
+
+.row{
+    margin-left: 0.5rem;
+}
+
+.main {
+
+    
+    padding-left: 3.1%;
+
+    // .page4{
+
+    // }
+
+    .section{
+      margin-top: 1rem;
+      
+    }
+  }
+  
+  #pagination {
+    position: fixed;
+    top: 45%;
+    left: 1%;
+    // transform: translateY(-50%, 0%);
+    list-style: none;
+    border-radius: 10px;
+    background-color: $color_botons;
+    border: 1px solid #fff;
+  
+    li {
+      position: relative;
+      margin: 32px 8px;
+      background: #fff;
+      border-radius: 100%;
+      width: 8px;
+      height: 8px;
+      transition: all .2s ease;
+  
+      &:hover {
+        transform: scale(1.5);
+      }
+      
+    }
+  
+    a {
+      position: absolute;
+      text-decoration: none;  
+      left: 0;
+      top: 0;
+      color: inherit;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  #card-name{
+    color: $color_acento;
+    font-size: 56px !important;
+    font-weight: 700;
+    
+
+     
+
+  }
+
+  .paragraph{
+      color: $color_body_p;
+  }
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 2rem; }
+  
+  .wrapper .item {
+    min-width: 250px;
+    box-sizing: border-box;
+     border: 2.1px solid black;
+    
+    height: 380px;
+    line-height: 110px;
+    background-color: #ebe8db;
+    margin-right: 28px; }
+
+
+  .skill{
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .skill-card{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+
+    .icon-skill{
+      max-width: 36px;
+    }
+  
+  }
+
+
+  #ejzf{
+    fill: $color_botons !important;
+  }
+
+
+  .card-email{
+
+    .row{
+      box-sizing: border-box;
+      border: 2.1px solid black;
+    }
+  }
+
+
+
+body{
+    background-color: $color_background !important;
+    // opacity: 0.4;
+    // background-size: 40px 40px;
+    background-image:  repeating-linear-gradient(0deg, $color_guias, $color_guias 2px, #208184,  2px, #188186);
+    background-size:  80px 52px;
+    background-position: -7.800000000000001px -7.800000000000001px, -7.800000000000001px -7.800000000000001px, -3.9000000000000004px -3.9000000000000004px, -3.9000000000000004px -3.9000000000000004px;
+    background-attachment: fixed;
+    background-color: #0bb0b3;
+}
+
+main{
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+.navbar-style-list, .navbar-top-style-list{
+  list-style: none;
+  background-color: $color_botons;
+  padding-inline-start: 0 !important;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0rem;
+  margin-top: 0.5rem;
+
+
+  
+
+  li{
+    font-weight: 700;
+    font-size: 2rem;
+    font-variant-caps: all-petite-caps;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+    text-align: center;
+    line-height: 2;
+    &:hover{
+      background-color: $color_acento ;
+    }
+
+    a{
+      color: $color_body_p_claro;
+
+      &:hover{
+        color: $color_acento_dark;
+        transition: ease-in 0.1s;
+      }
+    }
+
+
+  }
+
+
+}
+
+.footer-nav{
+  background-color: #fefefe ;
+  color: $color_acento;
+  height: 100px;
+  margin-top: 5rem;
+  padding-top: 1rem;
+
+  .col{
+    font-size: 20spx;
+    font-weight: 700;
+    &:hover{
+      color: $color_body_p_claro ;
+      transition: 0.4s ease-out;
+    }
+  }
+}
+
+#footer-ejzf{
+  fill: $color_acento !important;
+}
+
+
+
+
+.navbar-top-style-list{
+  display: none;
+  } 
+  
+  
+  @media (min-width: 1200px) { 
+    .container-button {
+      display: none;
+      
+      }#navtop{
+        display: inherit;
+    }
+  }
+
+
+  #pro001{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  #pro002{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  #pro003{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  #pro004{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  .proyectpage{
+    background-color: $color_botons;
+    border-top: 10px solid $color_acento ;
+    border-bottom: 10px solid $color_acento ;
+    padding-top: 1rem;
+  }
+
+  .proyect-img{
+
+    img{
+    width: 100%;
+    height: 100%;
+  }
+
+  
+
+
+}
+
+
+// CSS Fuera del index
+.rollback{
+  position: relative;
+  top: 22%;
+  left: 2%;
+  width: 75px;
+  height: 75px;
+  // background-color: white;
+  padding: 5px;
+  // border: 1px solid black;
+
+  
+}
+
+.rollback-image{
+  width: 100%;
+}
+
+
+.proyect-text{
+  
+  margin-top: 1rem;
+  color: $color_body_p_claro;
+
+  span{
+    color: $color_body_p_claro;
+  }
+  p {
+    color: $color_body_p_claro;
+  }
+
+}
+
+.progress-bar{
+  background-color: $color_background;
+}
+
+
+
+
+ 
+
+
+
+
+  
+
+
+
+
+
+// X-Small devices (portrait phones, less than 576px)
+// @media (max-width: 575.98px) { html {
+
+
+//     font-size: 14px !important;
+    
+//     font-family: "Barlow", sans-serif;
+// } }
+
+// // Small devices (landscape phones, less than 768px)
+// @media (max-width: 767.98px) { html {
+
+
+//     font-size: 16px!important;
+    
+//     font-family: "Barlow", sans-serif;
+// } }
+
+// // Medium devices (tablets, less than 992px)
+// @media (max-width: 991.98px) { html {
+
+
+//     font-size: 18px!important;
+    
+//     font-family: "Barlow", sans-serif;
+// } }
+
+// // Large devices (desktops, less than 1200px)
+// @media (max-width: 1199.98px) { html {
+
+
+//     font-size: 20px !important;
+    
+//     font-family: "Barlow", sans-serif;
+// } }
+
+// // X-Large devices (large desktops, less than 1400px)
+// @media (max-width: 1399.98px) { html {
+
+
+//     font-size: 22px!important;
+    
+//     font-family: "Barlow", sans-serif;
+// } }
