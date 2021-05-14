@@ -312,8 +312,9 @@ main {
 
 
 .yo{
-  MAX-WIDTH: 350PX;
+  MAX-WIDTH: 323PX;
   BORDER: 4PX SOLID;
   border-radius: 12px;
   margin: 1rem;
+
 }
