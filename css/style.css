@@ -309,3 +309,11 @@ main {
 
 .progress-bar {
   background-color: #0bb0b3; }
+
+
+.yo{
+  MAX-WIDTH: 350PX;
+  BORDER: 4PX SOLID;
+  border-radius: 12px;
+  margin: 1rem;
+}
