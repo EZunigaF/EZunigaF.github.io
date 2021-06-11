@@ -194,6 +194,11 @@ h6 {
   box-sizing: border-box;
   border: 2.1px solid black; }
 
+.certifics{
+  width: 100%;
+  max-width: 700px;
+  padding-right: 1rem;}
+
 body {
   background-color: #0bb0b3 !important;
   background-image: repeating-linear-gradient(0deg, #106466, #106466 2px, #208184, 2px, #188186);
@@ -208,7 +213,7 @@ main {
 
 .navbar-style-list, .navbar-top-style-list {
   list-style: none;
-  background-color: #661b4f;
+  background-color: #ebe8db;
   padding-inline-start: 0 !important;
   padding-bottom: 0.5rem;
   margin-bottom: 0rem;
@@ -222,11 +227,12 @@ main {
     text-align: center;
     line-height: 2; }
     .navbar-style-list li:hover, .navbar-top-style-list li:hover {
-      background-color: #b39a14; }
+      background-color: #afafaf; }
     .navbar-style-list li a, .navbar-top-style-list li a {
-      color: #ebe8db; }
+      color: #661b4f;
+      text-decoration: none; }
       .navbar-style-list li a:hover, .navbar-top-style-list li a:hover {
-        color: #665706;
+        color: #188186;
         transition: ease-in 0.1s; }
 
 .footer-nav {
@@ -248,7 +254,7 @@ main {
 .navbar-top-style-list {
   display: none; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1380px) {
   .container-button {
     display: none; }
   #navtop {
@@ -309,6 +315,10 @@ main {
 
 .progress-bar {
   background-color: #0bb0b3; }
+
+.item > a > img {
+  object-fit: cover !important;
+}
 
 
 .yo{
