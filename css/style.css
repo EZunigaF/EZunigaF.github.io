@@ -53,7 +53,7 @@ h6 {
 
 .display-6 {
   color: #ebe8db !important;
-  font-weight: 500; }
+  font-weight: 800; }
 
 .navbar {
   background-color: #ebe8db;
@@ -78,8 +78,7 @@ h6 {
   height: 100%; }
 
 .card-email-img {
-  width: 100%;
-  min-width: 353px; }
+  width: 100%;}
 
 .btn-contact {
   width: 200px;
@@ -104,8 +103,8 @@ h6 {
 .card-info {
   border-radius: 10px;
   margin-top: 1rem;
-  max-width: 80%;
-  min-width: 400px;
+  width:80%;
+  min-width: 300px;
   background-color: #ebe8db;
   border-radius: 6px;
   border: 3px solid black; }
@@ -322,6 +321,7 @@ main {
 
 
 .yo{
+  width: 94%;
   MAX-WIDTH: 323PX;
   BORDER: 4PX SOLID;
   border-radius: 12px;
