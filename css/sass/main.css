@@ -91,7 +91,7 @@ h6 {
 }
 
 .card-body {
-  background-color: #b39a14;
+  background-color: #fff;
   height: 100%;
 }
 
@@ -99,6 +99,7 @@ h6 {
   width: 100%;
   min-width: 353px;
 }
+
 
 .btn-contact {
   width: 200px;
@@ -109,7 +110,7 @@ h6 {
   margin-bottom: 2rem;
 }
 .btn-contact:hover {
-  background-color: #665706;
+  background-color: #0bb0b3 !important;
   transition: 0.3s ease;
 }
 
