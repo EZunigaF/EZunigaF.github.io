@@ -129,7 +129,7 @@ h6 {
   border: 3px solid black; }
 
 #page5 {
-  background-color: #ebe8db;
+  background-color: #262626;
   padding-right: 2rem; }
 
 .row {
@@ -254,16 +254,16 @@ main {
         transition: ease-in 0.1s; }
 
 .footer-nav {
-  background-color: #fefefe;
-  color: #b39a14;
+  background-color: #661b4f;
+  color: #fff;
   height: 100px;
   margin-top: 5rem;
   padding-top: 1rem; }
   .footer-nav .col {
-    font-size: 20spx;
+    font-size: 24px;
     font-weight: 700; }
     .footer-nav .col:hover {
-      color: #ebe8db;
+      color: #64fcff;
       transition: 0.4s ease-out; }
 
 #footer-ejzf {
