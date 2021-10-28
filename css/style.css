@@ -247,7 +247,15 @@ body {
   background-size: 80px 52px;
   background-position: -7.800000000000001px -7.800000000000001px, -7.800000000000001px -7.800000000000001px, -3.9000000000000004px -3.9000000000000004px, -3.9000000000000004px -3.9000000000000004px;
   background-attachment: fixed;
-  background-color: #0bb0b3; }
+  background-color: #0bb0b3;
+  animation: animate-background linear 45s infinite;
+}
+
+  @keyframes animate-background {
+    from { background-position-y: 0px;}
+    to { background-position-y: -1000px;}
+
+  }
 
 main {
   position: relative;
@@ -357,7 +365,7 @@ main {
     color: #ebe8db; }
 
 .progress-bar {
-  background-color: #0bb0b3; }
+  background-color: #661b4f; }
 
 .item > a > img {
   object-fit: cover !important;
