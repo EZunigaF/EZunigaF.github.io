@@ -23,16 +23,23 @@ h2 {
 #h2-profesion {
   color: #106466; }
 
+#pro008{
+  width: 100%;
+  height: 100%;
+  object-position: 0% 0%;
+}
+
 h3 {
   font-size: 2.074rem;
   font-weight: 700; }
 
 .display-3 {
   color: #661b4f;
-  font-weight: 600; }
+  font-weight: 600;
+  cursor: default; }
 
 .display-3:hover {
-  color: #0bb0b3;
+  color: #fff;
   transition: 0.2s ease-in-out; }
 
 h4 {
@@ -109,6 +116,23 @@ h6 {
   .btn-contact:hover {
     background-color: #0bb0b3;
     transition: 0.3s ease; }
+
+    .btn-irasitio {
+  
+      width: 200px;
+      height: 90px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+      background-color: #0bb0b3;
+      border: 1px solid white;
+      margin-bottom: 2rem; }
+      .btn-irasitio a {
+        text-decoration: none;
+      }
+      .btn-irasitio:hover {
+        background-color: #0bb0b3;
+        transition: 0.3s ease; }
 
 .card-paragraph {
   position: absolute;
@@ -260,7 +284,7 @@ main {
   margin-top: 5rem;
   padding-top: 1rem; }
   .footer-nav .col {
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 700; }
     .footer-nav .col:hover {
       color: #64fcff;
@@ -309,6 +333,7 @@ main {
   padding-top: 1rem; }
 
 .proyect-img img {
+  padding-bottom: 1rem;
   width: 100%;
   height: 100%; }
 
